@@ -1,20 +1,12 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(TYPOGRAPH_PRO_Semi_Bold.ttf);
-  }
-  @font-face {
-    font-family: typograf_light;
-    src: url(TYPOGRAPH_PRO_Light.ttf);
-  }
 body{
-    display: flex;
-    flex-direction: column;
     position: relative;
 }
+.headeri{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 
-/* .headeri{
-width: fit-content;
-} */
+}
 #logo{
     position: absolute;
     right: 88%;
@@ -28,6 +20,7 @@ width: fit-content;
     margin-left: 200px;
     left:50%;
     margin-top: 20px;
+    top: -700px;
 }
 
 .navbari{
@@ -38,17 +31,19 @@ width: fit-content;
     margin: 10px 5px;
 }
 #login{
+    margin-bottom: 10px;
     border: 3px solid white;
+    border-radius: 5px;
 }
 .navbari:hover{
     border: 1px solid white;
     background-color: white;
     border-radius: 20px;
     transition: 0.5s ease;
-   
     color: black;
 }
 #fotojahome{
+position: relative;
     width: 101%;
     height: 729px;
     padding: 0px 0px;
@@ -60,11 +55,11 @@ width: fit-content;
     justify-content: space-evenly;
     position: absolute;
     right: 37%;
-    top: 70%;
+    top: 60%;
 }
 #build{
     border: 1.5px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #ffffff38;
     margin-right: 20px;
     width: 170px;
@@ -73,7 +68,7 @@ width: fit-content;
 }
 #buy{
     border: 1.5px solid white;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #000000;
     margin-left: 20px;
     width: 170px;
@@ -90,7 +85,7 @@ width: fit-content;
     color: #000000;
 }
 .shade{
-    width: 101%;
+    width: 100%;
     height:729px;
     background: rgba(0, 0, 0, 0.637);
     opacity: 30%;
@@ -134,9 +129,12 @@ margin-bottom: 0px;
 left: 200px;
 font-size: medium;
 margin-top: 20px;
-font-family: myFirstFont;
+font-family: Assistant;
+font-weight: 700;
 }
 #description{
     font-size: large;
-    font-family: typograf_light;
+    font-family: Assistant;
+    padding-bottom: 20px;
+
 } 
