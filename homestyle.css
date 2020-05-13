@@ -25,7 +25,7 @@ width: fit-content;
     flex-direction: row;
     list-style-type: none;
     position: absolute;
-    margin-left: 200px;
+    margin-left: 300px;
     left:50%;
     margin-top: 20px;
 }
@@ -45,14 +45,17 @@ width: fit-content;
     background-color: white;
     border-radius: 20px;
     transition: 0.5s ease;
-   
     color: black;
+    cursor: pointer;
 }
+
+
+
 #fotojahome{
     width: 101%;
-    height: 729px;
+    height: 799px;
     padding: 0px 0px;
-  margin: -10px -10px;
+    margin: -10px -10px;
 }
 .butonat_mes{
     display: flex;
@@ -60,7 +63,8 @@ width: fit-content;
     justify-content: space-evenly;
     position: absolute;
     right: 37%;
-    top: 70%;
+    top: 65%;
+    
 }
 #build{
     border: 1.5px solid black;
@@ -70,6 +74,7 @@ width: fit-content;
     width: 170px;
     height: 50px;
     color: white;
+    cursor: pointer;
 }
 #buy{
     border: 1.5px solid white;
@@ -79,6 +84,7 @@ width: fit-content;
     width: 170px;
     height: 50px;
     color: white;
+    cursor: pointer;
 }
 #build:hover{
     background-color: #ffffff91;
@@ -91,7 +97,7 @@ width: fit-content;
 }
 .shade{
     width: 101%;
-    height:729px;
+    height:799px;
     background: rgba(0, 0, 0, 0.637);
     opacity: 30%;
     position: absolute;
