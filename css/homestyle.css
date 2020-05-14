@@ -1,109 +1,99 @@
 body{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
+    width: 99%;
 }
-.heder{
+header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: absolute;
+    width: 95%;
 }
-#fotojahome{
-position: relative;
-    width: 101%;
-    height: 729px;
-    padding: 0px 0px;
-  margin: -10px -10px;
-}
-.butonat_mes{
+ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    position: absolute;
-    right: 37%;
-    top: 60%;
+    list-style-type: none;
 }
-#build{
-    border: 1.5px solid black;
-    border-radius: 10px;
-    background-color: #ffffff38;
-    margin-right: 20px;
-    width: 170px;
-    height: 50px;
-    color: white;
-    outline: none;
-}
-#buy{
-    border: 1.5px solid white;
-    border-radius: 10px;
-    background-color: #000000;
-    margin-left: 20px;
-    width: 170px;
-    height: 50px;
-    color: white;
-    outline: none;
-}
-#build:hover{
-    background-color: #ffffff91;
-    border: none;
-}
-#buy:hover{
-    background-color: #fff9f9;
-    border: 1.5px solid black;
-    color: #000000;
-}
-.shade{
-    width: 100%;
-    height:729px;
-    background: rgba(0, 0, 0, 0.637);
-    opacity: 30%;
-    position: absolute;
-    margin:-10px -10px
-
-}
-#baneri{
-position: absolute;
+.btnHeader{
+margin: 0px 10px;
+border: none;
+background: none;
 color: white;
-right: 26%;
-top: 20%;
-font-size: 100px;
-font-family: sans-serif;
+outline: none;
+font-size: larger;
+margin-top: 5px;
 }
-#banerii{
+.btnHeader:hover{
+background-color: white;
+color: #000000;
+border-radius: 10px;
+transition: 0.5s ease;
+}
+#logini{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+#logini:hover{
+    background-color: white;
+color: #000000;
+border-radius: 10px;
+transition: 0.5s ease;
+}
+
+.fotoja{
+    width: 101.3%;
+    height: 100vh;
+    margin-left: -8px;
+    margin-top: -10px;
+    background-color: #000000;
+}
+.teksti-mes{
+    font-family: Assistant;
+    left: 32%;
+    color: white;
     position: absolute;
-    color: white;
-    right: 35%;
-    top: 45%;
-    font-size: 20px;
-    font-family: sans-serif;
-    }
- .second_part{
-    display: flex;
-    flex-direction: column;
-    right: 10px;
-    top: 20 px;
-    position: relative;
-    font-family: ;
-    text-align: center;
-    justify-content: space-evenly;
-    background-color: rgb(5, 43, 27);
-    width: 101%;
-    height: 20.5%;
-    color: white;
+    bottom: 25%;
 }
-#hederiPr2{
-font-weight: lighter;
-margin-bottom: 0px;
-left: 200px;
-font-size: medium;
-margin-top: 20px;
-font-family: Assistant;
-font-weight: 700;
+#main-tekst{
+    font-size: 72pt;
+    text-align: center;
 }
 #description{
-    font-size: large;
-    font-family: Assistant;
-    padding-bottom: 20px;
-
-} 
+    font-size: 20pt;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -20px;
+}
+.butonat-mes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 20%;
+    left: 37%;
+}
+#buy{
+    margin-right: 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.514);
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+}
+#buy:hover{
+    background-color: black;
+    color: white;
+    height: 50px;
+    transition: 0.5s ease;
+}
+#build{
+    margin-right: 50px;
+    border-radius: 5px;
+    background-color:black;
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+}
