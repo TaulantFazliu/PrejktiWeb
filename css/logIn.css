@@ -4,6 +4,55 @@
 	box-sizing: border-box;
 }
 
+header{
+	top: -2px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	border: 1px solid white;
+	border-radius: 0 0 10px 10px;
+	background: linear-gradient(to right, rgb(2, 173, 116), rgb(5, 43, 27));;
+ }
+ 
+ ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	align-items: center;
+	margin-right: 50px;
+ }
+ .btnHeader{
+	 font-family: Assistant;
+ margin: 0px 10px;
+ border: none;
+ background: none;
+ color: white;
+ outline: none;
+ font-size: larger;
+ margin-top: 5px;
+ }
+ .btnHeader:hover{
+ background-color: white;
+ color: #000000;
+ border-radius: 10px;
+ transition: 0.5s ease;
+ }
+ #logini{
+	background-color: white;
+	/* border: 2px solid white; */
+	border-radius: 5px;
+	color: black;
+	padding: 0 5px;
+ }
+ #logini:hover{
+	background-color: white;
+ color: #000000;
+ border-radius: 10px;
+ transition: 0.5s ease;
+ }
+
 body {
 	background: #000000d8;
 	display: flex;
@@ -89,6 +138,7 @@ input {
 }
 
 .container {
+	margin-top: 100px;
 	background-color: #fff;
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
@@ -260,6 +310,7 @@ footer a {
 }
 
 .fotojabcg{
+	position: relative;
   display: flex;
   width: 1531px;
   height: 830px;
