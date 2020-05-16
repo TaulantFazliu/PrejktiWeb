@@ -8,7 +8,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     background:linear-gradient(to right, rgb(2, 173, 116), rgb(5, 43, 27));
     
@@ -18,7 +18,9 @@ header{
 body{
     background-color: #f1f1f1db;
 }
-
+#logo{
+    cursor: pointer;
+}
 header ul{
     display: flex;
     flex-direction: row;
@@ -57,6 +59,7 @@ header ul{
     border-radius: 10px;
     padding: 0 5px;
     transition: 0.5s ease;
+    cursor: pointer;
 }
 
 .mid-content{
@@ -104,6 +107,13 @@ header ul{
     background-color: rgba(211, 211, 211, 0.384);
     border: none;
 }
+#kontakti{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: default;
+}
 
 .mid-content input:hover{
     transition: 0.2s ease;
@@ -138,6 +148,3 @@ header ul{
     transition: 0.3s ease;
     border: 2px solid white; 
 }
-
-
-    

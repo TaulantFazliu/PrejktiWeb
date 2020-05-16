@@ -9,17 +9,17 @@
 </head>
 <body>
     <header>
-        <img src="logo-icona/logometekstt.png" alt="" class="logo" width="160px" height="95px">
+        <img src="logo-icona/logometekstt.png" id="logo" alt="Logo" width="160px" height="95px" onclick="changepage1()">
         <ul>
-            <li><button class="butonatheader">Home</button></li>
-            <li><button class="butonatheader">About Us</button></li>
-            <li><button class="butonatheader">Contact Us</button></li>
-            <li><button class="butonatheader" id="login">Log In</button></li>
+            <li><button class="butonatheader" id="home"onclick="changepage1()">Home</button></li>
+            <li><button class="butonatheader"onclick="changepage2()">About Us</button></li>
+            <li><button class="butonatheader" id="kontakti"onclick="changepage3()">Contact Us</button></li>
+            <li><button class="butonatheader" id="logini"onclick="changepage4()">Log In</button></li>
         </ul> 
      </header>
      <div class="mid-content" >
          <h1 id="title">Contact Us</h1>
-         <h1 id="second">How can he help you?</h1>
+         <h1 id="second">How can we help you?</h1>
          <h4 id="third">Give us a call or a text in whatsApp : +38345810432 or send us an email :</h4>
 
          <div class="fields">
@@ -31,5 +31,8 @@
 
          <button id="send">Send ►</button>
      </div>
+     <script src="js/navbar.js"></script>
+
+     
 </body>
 </html>

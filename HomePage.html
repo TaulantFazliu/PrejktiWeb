@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Compu-Parts</title>
     <link rel="stylesheet" href="css/homestyle.css">
+    <link rel="shortcut icon" href="logo-icona/Logobcg.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="logo-icona/logometekstt.png" alt="Logo" width="160px" height="95px">
+        <img src="logo-icona/logometekstt.png" alt="Logo" id="logo" width="160px" height="95px" onclick="changepage1()">
         <ul>
-            <li>a<button class="btnHeader" id="home">Home</button></li>
-            <li><button class="btnHeader">About Us</button></li>
-            <li><button class="btnHeader">Contact Us</button></li>
-            <li><button class="btnHeader" id="logini">Log In</button></li>
+            <li><button class="btnHeader" id="home" onclick="changepage1()">Home</button></li>
+            <li><button class="btnHeader"onclick="changepage2()">About Us</button></li>
+            <li><button class="btnHeader"onclick="changepage3()">Contact Us</button></li>
+            <li><button class="btnHeader" id="logini"onclick="changepage4()">Log In</button></li>
         </ul>
     </header>
 
@@ -30,8 +31,25 @@
                 <button id="build">Build</button>
             </div>
         </div>
+        
+        <footer>
+            <div class="pjesaPar">
+            <img src="logo-icona/logometekstt.png" alt="Logo" id="logoo" width="205px" height="125px" onclick="changepage1()">
+            <p id="paragrafi">If you have any problems, or any questions please send us an email or send us a message in whatsapp </p>
+            <div class="linqet">
+             <p onclick="changepage3()" id="linku">info@compu-parts.com</p>
+             <p onclick="changepage3()" id="linku">+38345123456</p>
+            </div>
+            </div>
+
+            <div class="pjesa_posht">
+                <p id="Copyright">Copyright &copy <b>2020 Compu-Parts</b><a href="https://github.com/TaulantFazliu/PrejktiWeb" id="giti">  Linku
+                    per GitHub</a></p>
+            </div>
+
+        </footer>
     
 
-    
+    <script src="js/navbar.js"></script>
 </body>
 </html>

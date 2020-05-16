@@ -10,12 +10,12 @@
 <body>
 
 	<header>
-        <img src="logo-icona/logometekstt.png" id="logo" alt="Logo" width="160px" height="95px">
+        <img src="logo-icona/logometekstt.png" id="logo" alt="Logo" width="160px" height="95px" onclick="changepage1()">
         <ul>
-            <li><button class="btnHeader">Home</button></li>
-            <li><button class="btnHeader" id="about">About Us</button></li>
-            <li><button class="btnHeader">Contact Us</button></li>
-            <li><button class="btnHeader" id="logini">Log In</button></li>
+            <li><button class="btnHeader" id="home"onclick="changepage1()">Home</button></a></li>
+            <li><button class="btnHeader"onclick="changepage2()">About Us</button></li>
+            <li><button class="btnHeader"onclick="changepage3()">Contact Us</button></li>
+            <li><button class="btnHeader" id="logini"onclick="changepage4()">Log In</button></li>
         </ul>
     </header>
 
@@ -39,7 +39,7 @@
 			<input type="text" placeholder="Name" class="inputat" required/>
 			<input type="email" placeholder="Email" class="inputat" required/>
 			<input type="password" placeholder="Password" class="inputat" required />
-			<button class="butonat">Sign Up</button>
+			<button class="butonat"onclick="validimi(0)">Sign Up</button>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
@@ -54,7 +54,7 @@
 			<input type="text" placeholder="Username" class="inputat" required />
 			<input type="password" placeholder="Password" class="inputat" required />
 			<a href="#">Forgot your password?</a>
-			<button class="butonat">Sign In</button>
+			<button class="butonat" onclick="validimi(1)">Sign In</button>
 		</form>
 	</div>
 	<div class="overlay-container">
@@ -76,5 +76,8 @@
 </div>
 
 <script src="js/login.js"></script>
+<script src="js/navbar.js"></script>
+
+
 </body>
 </html>
