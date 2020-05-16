@@ -9,3 +9,12 @@ signUpButton.addEventListener('click', () => {
 signInButton.addEventListener('click', () => {
 	container.classList.remove("right-panel-active");
 });
+
+function validimi(form) {
+    let inputs = document.querySelectorAll("input");
+    if (form == 0 && inputs[2].value == "" && inputs[3].value == "" && inputs[4].value == "") {
+			alert("Can't Sign Up , fields can not be blank! Fill the fields...");
+    } else if (form == 1 && inputs[0].value == "" && inputs[1].value == "") {
+			alert("Can't Sign In , fields can not be blank! Fill the fields...");
+    }
+}

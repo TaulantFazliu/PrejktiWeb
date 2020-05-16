@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compu-Parts Login</title>
-    <link rel="stylesheet" href="login.css">
+	<title>Compu-Parts Login</title>
+	<link rel="shortcut icon" href="logot/Logobcg.png" type="image/png">
+	<link rel="stylesheet" href="login.css">
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
 	<header>
-        <img src="Logot/logometekstt.png" alt="" class="logo" width="160px" height="95px">
+        <img src="Logot/logometekstt.png" alt="" class="logo" width="160px" height="95px" onclick="changepage1()">
         <ul>
-            <li><button class="butonatheader">Home</button></li>
-            <li><button class="butonatheader">About Us</button></li>
-            <li><button class="butonatheader">Contact Us</button></li>
-            <li><button class="butonatheader" id="login">Log In</button></li>
+            <li><button class="butonatheader" onclick="changepage1()">Home</button></li>
+            <li><button class="butonatheader" onclick="changepage2()">About Us</button></li>
+            <li><button class="butonatheader" onclick="changepage3()">Contact Us</button></li>
+            <li><button class="butonatheader" id="login" onclick="changepage4()">Log In</button></li>
         </ul> 
      </header>
 
@@ -31,7 +33,7 @@
 			<input type="text" class="inputat" placeholder="Name" />
 			<input type="email" class="inputat" placeholder="Email" />
 			<input type="password" class="inputat" placeholder="Password" />
-			<button class="butonat">Sign Up</button>
+			<button class="butonat" id="sUp" onclick="validimi(0)">Sign Up</button>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
@@ -46,7 +48,7 @@
 			<input type="email" class="inputat" placeholder="Email" />
 			<input type="password" class="inputat" placeholder="Password" />
 			<a href="#">Forgot your password?</a>
-			<button class="butonat">Sign In</button>
+			<button class="butonat" id="sIn" onclick="validimi(1)">Sign In</button>
 		</form>
 	</div>
 	<div class="overlay-container">
@@ -66,6 +68,8 @@
 		</div>
 	</div>
 </div>
-    <script src="login.js"></script>
+	<script src="login.js"></script>
+	<script src="navBar.js"></script>
+	
 </body>
 </html>
