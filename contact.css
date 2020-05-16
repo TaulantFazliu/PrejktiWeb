@@ -1,5 +1,5 @@
-* {
-	box-sizing: border-box;
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -10,11 +10,13 @@ header{
     justify-content: space-between;
     position: absolute;
     width: 100%;
+    background:linear-gradient(to right, rgb(0, 109, 73), rgb(5, 43, 27));
     
+    border-radius: 0 0 10px 10px;
 }
 
 body{
-    width: 99%;
+    background-color: #f1f1f1db;
 }
 
 header ul{
@@ -24,7 +26,6 @@ header ul{
     justify-content: space-around;
     align-items: center;
     width: 35%;
-    margin-right: 10px;
 }
 
 #login{
@@ -38,12 +39,6 @@ header ul{
     color: black;
     border-radius: 10px;
     transition: 0.5s ease;
-}
-
-.content{
-    background-color: #000000d8;
-    width: 1569px;
-    height: 775px;
 }
 
 .butonatheader{
@@ -63,68 +58,84 @@ header ul{
     transition: 0.5s ease;
 }
 
-.fotoja{    
-    width: 102%;
-    height: 100vh;
-    margin-left: -2px;
-    margin-top: -7px;
-}
-
-.teksti-mes{
-    position: absolute;
+.mid-content{
     font-family: Assistant;
-    color: white;
-    text-align: center;
-    left: 31%;
-    bottom: 45%;
-}
-#h1{
-    font-size: 72pt;
-}
-#sp{
-    font-weight: 400;
-    font-size: 20pt;
-    margin-top: -20px;
 }
 
-.butonatmes{
+#title{
+    position: absolute;
+    color: black;
+    margin-top: 200px;
+    left: 43%;
+    font-size: 35pt;
+}
+
+#second{
+    position: absolute;
+    color: black;
+    font-size: 20pt;
+    margin-top: 320px;
+    left: 30%;
+}
+#third{
+    position: absolute;
+    color: black;
+    font-size: 13pt;
+    margin-top: 350px;
+    left: 30%;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border: none;
+    width: 40%;
+    margin-top: 420px;
+    left: 29%
+}
+.fields input{
+    outline: none;
+}
+.field{
+    height: 50px;
+    margin: 10px;
+    background-color: rgba(211, 211, 211, 0.384);
+    border: none;
+}
+
+.mid-content input:hover{
+    transition: 0.2s ease;
+    font-size: 11pt;
+}
+
+.mid-content input{
+    padding-left: 20px;
+}
+#msg{
+    height: 200px;
+}
+#send{
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    bottom: 20%;
-    left: 40%;
-}
-#buy{
-    margin-right: 50px;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255 , 0.514);
+    top: 110%;
+    left: 59%;
     width: 150px;
     height: 40px;
     border: 2px solid black;
     color: black;
     font-size: 20px;
-}
-#build{
-    margin-right: 50px;
     border-radius: 10px;
-    background-color: black;
-    width: 150px;
-    height: 40px;
-    border: 2px solid white;
-    color: white;
-    font-size: 20px;
 }
 
-#buy:hover{
-  background-color: black;
-  color: white;
-  transition: 0.3s ease;
-  border: 2px solid white;  
-}
-#build:hover{
-    background-color: white;
-    color: black;
+#send:hover{
+    background-color: black;
+    color: white;
     transition: 0.3s ease;
-    border: 2px solid black;  
-  }
+    border: 2px solid white; 
+}
+
+
+    
