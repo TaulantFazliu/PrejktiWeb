@@ -10,7 +10,6 @@ header{
    justify-content: space-between;
    position: absolute;
    width: 100%;
-   border: 1px solid white;
    border-radius: 0 0 10px 10px;
    background: linear-gradient(to right, rgb(2, 173, 116), rgb(5, 43, 27));;
 }
@@ -19,8 +18,9 @@ ul{
    display: flex;
    flex-direction: row;
    list-style-type: none;
+   justify-content: space-around;
    align-items: center;
-   margin-right: 50px;
+   width: 35%;
 }
 .btnHeader{
 margin: 0px 10px;
@@ -35,6 +35,7 @@ margin-top: 5px;
 background-color: white;
 color: #000000;
 border-radius: 10px;
+padding: 0 5px;
 transition: 0.5s ease;
 }
 #about{
@@ -46,7 +47,7 @@ transition: 0.5s ease;
 #logini{
    border: 2px solid white;
    border-radius: 5px;
-   padding: 0 5px;
+   padding: 0 10px;
 }
 #logini:hover{
    background-color: white;
@@ -65,15 +66,15 @@ transition: 0.5s ease;
    text-transform: uppercase;
    margin-top: 90px;
    margin-bottom: 60px;
-   color: white;
+   color: black;
    font-size: 40px;
 }
 .abutus p{
    width: 600px;
    margin: auto;
-   margin-bottom: 300px;
+   margin-bottom: 400px;
    font-size: 20px;
-   color: white;
+   color: black;
    text-align: justify;
    height: 0;
    
@@ -84,12 +85,12 @@ transition: 0.5s ease;
    text-align: center;
    /* background: linear-gradient(to bottom,  rgb(1, 121, 115), rgb(5, 43, 27)); */
    padding: 60px;
-   background-color: #000000db;
+   background-color: #f1f1f1db;
 }
 .team-selection h1{
    text-transform: uppercase;
    margin-bottom: 60px;
-   color: white;
+   color: black;
    font-size: 40px;
 }
 .border{
@@ -123,7 +124,7 @@ transition: 0.5s ease;
    width: 600px;
    margin: auto;
    font-size: 20px;
-   color: white;
+   color: black;
    text-align: justify;
    height: 0;
    overflow: hidden;
