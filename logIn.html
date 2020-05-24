@@ -28,33 +28,38 @@
     
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		<form action="#">
+		<form action="HomePage.html" method="POST" onsubmit="return validateform2()">
 			<h1>Create Account</h1>
 			<div class="social-container">
-				<a href="#" class="social"><img src="logo-icona/icons8-facebook-f-192.png" width="40px" height="40px" ><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><img src="logo-icona/icons8-google-48.png" alt="" width="40px" height="40px"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><img src="logo-icona/icons8-linkedin-2-48.png" alt="" width="40px" height="40px"><i class="fab fa-linkedin-in"></i></a>
+				<a  class="social"><img src="logo-icona/icons8-facebook-f-192.png" width="40px" height="40px" ><i class="fab fa-facebook-f"></i></a>
+				<a  class="social"><img src="logo-icona/icons8-google-48.png" alt="" width="40px" height="40px"><i class="fab fa-google-plus-g"></i></a>
+				<a  class="social"><img src="logo-icona/icons8-linkedin-2-48.png" alt="" width="40px" height="40px"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<span>or use your email for registration</span>
-			<input type="text" placeholder="Name" class="inputat" required/>
-			<input type="email" placeholder="Email" class="inputat" required/>
-			<input type="password" placeholder="Password" class="inputat" required />
-			<button class="butonat"onclick="validimi(0)">Sign Up</button>
+			<input type="text" placeholder="Name" class="inputat" id="e" />
+			<div class="error" id="e1"></div>
+			<input type="text" placeholder="Email" class="inputat" id="em" />
+			<div class="error" id="e2"></div>
+			<input type="password" placeholder="Password" class="inputat" id="psw"  />
+			<div class="error" id="e3"></div>
+			<input type="submit" class="butonat" value="Sign up">
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
-		<form action="#">
+		<form action="HomePage.html" method="POST" onsubmit="return validateform()">
 			<h1>Sign in</h1>
 			<div class="social-container">
-				<a href="#" class="social"><img src="logo-icona/icons8-facebook-f-192.png" width="40px" height="40px" ><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><img src="logo-icona/icons8-google-48.png" alt="" width="40px" height="40px"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><img src="logo-icona/icons8-linkedin-2-48.png" alt="" width="40px" height="40px"><i class="fab fa-linkedin-in"></i></a>
+				<a class="social"><img src="logo-icona/icons8-facebook-f-192.png" width="40px" height="40px" ><i class="fab fa-facebook-f"></i></a>
+				<a class="social"><img src="logo-icona/icons8-google-48.png" alt="" width="40px" height="40px"><i class="fab fa-google-plus-g"></i></a>
+				<a class="social"><img src="logo-icona/icons8-linkedin-2-48.png" alt="" width="40px" height="40px"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<span>or use your account</span>
-			<input type="text" placeholder="Username" class="inputat" required />
-			<input type="password" placeholder="Password" class="inputat" required />
-			<a href="#">Forgot your password?</a>
-			<button class="butonat" onclick="validimi(1)">Sign In</button>
+			<input type="text" placeholder="E-mail" class="inputat" id="email"  />
+		<div class="error" id="e4"></div>
+			<input type="password" placeholder="Password" class="inputat" id="passs"  />
+			<div class="error" id="e5"></div>
+			<a>Forgot your password?</a>
+			<input type="submit" class="butonat" value="Sign in">
 		</form>
 	</div>
 	<div class="overlay-container">

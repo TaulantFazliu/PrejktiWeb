@@ -1,26 +1,39 @@
+.logo{
+    cursor: pointer;
+ }
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Assistant;
 }
 
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* position: absolute; */
+    position: absolute;
     width: 100%;
-    background:linear-gradient(to right, rgb(2, 173, 116), rgb(5, 43, 27));
-    
+    background: linear-gradient(to right, rgb(2, 173, 116), rgb(5, 43, 27));
     border-radius: 0 0 10px 10px;
+}
+
+#contact{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0 4px;
+}
+#contact:hover{
+    cursor: default;
 }
 
 body{
     background-color: #f1f1f1db;
+    position: relative;
 }
-#logo{
-    cursor: pointer;
-}
+
 header ul{
     display: flex;
     flex-direction: row;
@@ -64,38 +77,47 @@ header ul{
 
 .mid-content{
     font-family: Assistant;
+    display: flex;
+    flex-direction: column;
 }
 
-#title{
-    position: absolute;
+ #title{
+     margin-top: 200px;
+     position: relative;
     color: black;
-    margin-top: 120px;
-    left: 43%;
+    align-items: center;
+    text-align: center;
     font-size: 35pt;
+    width: 100%;
 }
 
-#second{
-    position: absolute;
+ #second{
+     position: relative;
     color: black;
     font-size: 20pt;
-    margin-top: 280px;
-    left: 30%;
+    margin-top: 50px;
+   /* align-items: center;
+   text-align: center; */
+   width: 50%;
+   left: 30%;
 }
 #third{
-    position: absolute;
+    position: relative;
     color: black;
     font-size: 13pt;
-    margin-top: 310px;
+    margin-top: 15px;
+    
+    width: 60%;
     left: 30%;
 }
 
 .fields{
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     border: none;
     width: 40%;
-    margin-top: 380px;
+    margin-top: 50px;
     left: 29%
 }
 .fields input{
@@ -106,13 +128,6 @@ header ul{
     margin: 10px;
     background-color: rgba(211, 211, 211, 0.384);
     border: none;
-}
-#kontakti{
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    padding: 0 5px;
-    cursor: default;
 }
 
 .mid-content input:hover{
@@ -130,9 +145,9 @@ header ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: absolute;
-    top: 127%;
-    left: 58.6%;
+    position: relative;
+    top: 110%;
+    left: 59%;
     width: 150px;
     height: 40px;
     border: 2px solid black;
@@ -147,4 +162,50 @@ header ul{
     color: white;
     transition: 0.3s ease;
     border: 2px solid white; 
-}
+} 
+
+footer{
+    background: linear-gradient(to right, rgb(2, 173, 116), rgb(5, 43, 27));
+    height: 205px;
+    width: 100%;
+    
+  }
+  .pjesa-pare{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      color: white;
+      align-items: center;
+  }
+  .logo2{
+      margin-top: 60px;
+  }
+  #paragraf{
+      margin-top: 70px;
+      font-size: 20px;
+      text-align: justify;
+  }
+  .nenpjesa-pare{
+      margin-top: 70px;
+      line-height: 35px;
+  }
+  .pjesa-dyte{
+      margin-top: 35px;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+  }
+  #contact1:hover{
+      cursor: pointer;
+  }
+  #contact2:hover{
+    cursor: pointer;
+ }
+ #giti{
+    text-decoration: none;
+    color: white;
+ }
+
+
+
+    

@@ -323,3 +323,10 @@ footer a {
   margin: -10px -10px;
   opacity: 50%;
 }
+.error{
+	font-family: Assistant;
+	color: red;
+	font-size: 12pt;
+	width: 280px;
+	text-align: left;
+}
