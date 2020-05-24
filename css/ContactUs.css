@@ -205,6 +205,13 @@ footer{
     text-decoration: none;
     color: white;
  }
+ .error{
+	font-family: Assistant;
+	color: red;
+	font-size: 12pt;
+	width: 280px;
+	text-align: left;
+}
 
 
 

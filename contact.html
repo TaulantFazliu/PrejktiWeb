@@ -23,14 +23,17 @@
          <h1 id="second">How can he help you?</h1>
          <h4 id="third">Give us a call or a text in whatsApp : +38345810432 or send us an email :</h4>
 
-         <form action="#">
+         <form action="contact.html" method="POST" onsubmit="return validate()">
          <div class="fields">
-             <input type="text" placeholder="Name" class="field" required>
-             <input type="email" placeholder="Email" class="field" required>
-             <input type="tel" placeholder="Phone Number" class="field" required>
-             <input type="text" placeholder="Message" class="field" id="msg" required>
+             <input type="text" placeholder="Name" class="field" id="name" >
+             <div class="error" id="e1"></div>
+             <input type="text" placeholder="Email" class="field" id="email">
+             <div class="error" id="e2"></div>
+             <input type="text" placeholder="Phone Number" class="field" id="number">
+             <div class="error" id="e3"></div>
+             <input type="text" placeholder="Message" class="field" id="msg" >
          </div>
-         <button id="send" onclick="validimi()">Send ►</button>
+         <input type="submit" id="send" value="Send ►">
          </form>
 
          
@@ -54,5 +57,6 @@
 
         </div>
     </footer>
+    <script src="js/contact.js"></script>
 </body>
 </html>
