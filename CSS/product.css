@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant;
+    
+ }
+
+ #logo{
+    cursor: pointer;
+ }
+ header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    background: linear-gradient(to right, rgb(2, 173, 116), rgb(5, 43, 27));;
+ }
+ 
+.slide{
+    margin: 0 auto;
+
+}
+
+ .lista{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+ }
+
+.slider-btn{
+    margin-bottom: -40px;
+}
+
+ .display-button{
+     width: 60px;
+     height: 30px;
+     border: 1.5px solid black; 
+     border-radius: 5px 5px 5px 5px ;
+ }
+
+ .btnHeader{
+ margin: 0px 10px;
+ border: none;
+ background: none;
+ color: white;
+ outline: none;
+ font-size: larger;
+ margin-top: 5px;
+ }
+ .btnHeader:hover{
+ background-color: white;
+ color: #000000;
+ border-radius: 10px;
+ padding: 0 5px;
+ transition: 0.5s ease;
+ cursor: pointer;
+ }
+ /* #about{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: default;
+ } */
+ #logini{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0 10px;
+ }
+ #logini:hover{
+    background-color: white;
+ color: #000000;
+ border-radius: 10px;
+ transition: 0.5s ease;
+ }
+ .produktet{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     list-style-type: none;
+     padding-top: 5%;
+     
+ }
+ .produktet .pjesa_txt{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    /* margin: 0px 370px; */
+    flex-basis: 400px;
+}
+.produktet .prod1{
+    background-color: rgb(228, 228, 228);
+    padding: 0 30px 0 30px;
+    margin-bottom: 100px;
+}
+.prod1:hover{
+    background-color: white;
+    transition: 0.3s ease-in-out;
+
+}
+.produktet .prod2{
+    background-color: rgb(46, 46, 46);
+    padding: 0 80px 0 80px;
+    margin-bottom: 100px;
+}
+.prod2:hover{
+    background-color: rgb(175, 175, 175);
+    transition: 0.3s ease-in-out;
+
+}
+.produktet .prod3{
+    background-color: rgb(228, 228, 228);
+    padding: 0 30px 0 30px;
+    margin-bottom: 100px;
+}
+ .produktet .prod1 p{
+    font-size: small;
+    color: gray;
+    text-align: center;
+    }
+.produktet .prod1 h6{
+    font-size: large;
+    text-align: center;
+    color: white;
+    }
+.produktet .prod2 p{
+        font-size: small;
+        color: gray;
+        text-align: center;
+        }
+.produktet .prod2 h6{
+        font-size: large;
+        text-align: center;
+        color: white;
+        }
+.prod3:hover{
+            background-color: #000000db;
+            transition: 0.3s ease-in-out;
+        
+        }
+.produktet .prod3 p{
+            font-size: small;
+            color: gray;
+            text-align: center;
+            }
+.produktet .prod3 h6{
+            font-size: large;
+            text-align: center ;
+            }
+.bottom_part{
+    padding-top: 5%;
+}
+.addtocart{
+    /* margin-left: 19%; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.addtocart:hover{
+    background-color: #000000db;
+    color: white;
+    transition: 0.5s ease;
+
+}
+.addtocart2{
+    /* margin-left: 37%; */
+    margin-top: 7%;
+    margin-bottom: 5%;
+    width: 90px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: #000000db;
+    color: white;
+    border-radius: 10px;
+}
+.addtocart2:hover{
+    background-color: white;
+    color: #000000db;
+    transition: 0.5s ease;
+
+}
+.addtocart3{
+    /* margin-left: 39%; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.addtocart3:hover{
+    background-color: #000000db;
+    color: white;
+    transition: 0.5s ease;
+
+}
+.produ h1{
+    text-transform: uppercase;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    color: black;
+    font-size: 40px;
+ }
+
+ 
+ .team-selection{
+    overflow: hidden;
+    text-align: center;
+    /* background: linear-gradient(to bottom,  rgb(1, 121, 115), rgb(5, 43, 27)); */
+    padding: 60px;
+    background-color: #f1f1f1db;
+ }
+ .team-selection h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: black;
+    font-size: 40px;
+ }
+ .border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #0bccc2;
+    margin-bottom: 20px;
+ }

@@ -1,0 +1,189 @@
+.logo{
+    cursor: pointer;
+ }
+
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Assistant;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    
+}
+
+body{
+    width: 99%;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    margin-right: 10px;
+}
+
+#login{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+#home{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0 4px;
+}
+#home:hover{
+    cursor: default;
+}
+
+.login:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.content{
+    background-color: #000000d8;
+    width: 1569px;
+    height: 775px;
+}
+
+.btnHeader{
+    margin: 0px 10px;
+    border: none;
+    background: none;
+    color: white;
+    outline: none;
+    font-size: larger;
+    margin-top: 5px;
+    }
+    .btnHeader:hover{
+    background-color: white;
+    color: #000000;
+    border-radius: 10px;
+    padding: 0 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    }
+
+.fotoja{    
+    width: 101%;
+    height: 100vh;
+    margin-left: -2px;
+    margin-top: -7px;
+}
+
+.teksti-mes{
+    position: absolute;
+    font-family: Assistant;
+    color: white;
+    text-align: center;
+    left: 31%;
+    bottom: 45%;
+}
+#h1{
+    font-size: 72pt;
+}
+#sp{
+    font-weight: 400;
+    font-size: 20pt;
+    margin-top: -20px;
+}
+
+.butonatmes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 20%;
+    left: 46%;
+}
+#buy{
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255 , 0.514);
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+}
+#build{
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+}
+
+#buy:hover{
+  background-color: black;
+  color: white;
+  transition: 0.3s ease;
+  border: 2px solid white;  
+}
+#build:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease;
+    border: 2px solid black;  
+  }
+
+  footer{
+    background: linear-gradient(to right, rgb(2, 173, 116), rgb(5, 43, 27));
+    height: 205px;
+    width: 101%;
+  }
+  .pjesa-pare{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      color: white;
+      align-items: center;
+  }
+  .logo2{
+      margin-top: 60px;
+  }
+  #paragraf{
+      margin-top: 70px;
+      font-size: 20px;
+      text-align: justify;
+  }
+  .nenpjesa-pare{
+      margin-top: 70px;
+      line-height: 35px;
+  }
+  .pjesa-dyte{
+      margin-top: 35px;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+  }
+  #contact1:hover{
+      cursor: pointer;
+  }
+  #contact2:hover{
+    cursor: pointer;
+}
+#giti{
+    text-decoration: none;
+    color: white;
+}
+
+ 
